@@ -10,7 +10,7 @@ def index():
         city_name = request.form.get('city')
 
         #take a variable to s6how the json data
-        r = requests.get('https://api.openweathermap.org/data/2.5/weather?q='+city_name+'&appid=ccfc1e9051c667dd2d881599f7710c1f')  # type: ignore
+        r = requests.get('https://api.openweathermap.org/data/2.5/weather?q='+city_name+'&appid=  # your api key here')  # type: ignore
 
         #read the json object
         json_object = r.json()
