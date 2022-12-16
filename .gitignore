@@ -1,0 +1,4 @@
+userproject/
+*.pdf
+DjangoProject/
+.vscode/
